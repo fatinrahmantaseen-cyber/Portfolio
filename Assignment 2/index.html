@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSE 391 – Assignment 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="page-header">
+    <h1>CSE 391 – Assignment 2</h1>
+  </header>
+
+  <main class="main-container">
+
+    <!-- ======================================================== -->
+    <!-- QUESTION 1 – FORTUNE GENERATOR                           -->
+    <!-- ======================================================== -->
+    <section class="section-container" id="fortune-section">
+      <h2>Question 1 – Fortune Generator</h2>
+
+      <div class="fortune-wrapper">
+
+        <div id="fortune-box">
+          <p id="fortune-text">Fortune message will appear here.</p>
+        </div>
+
+        <div class="fortune-buttons-panel">
+          <button id="btn-green" class="color-btn btn-color-green" title="Green Preset"></button>
+          <button id="btn-yellow" class="color-btn btn-color-yellow" title="Yellow Preset"></button>
+          <button id="btn-blue" class="color-btn btn-color-blue" title="Blue Preset"></button>
+          <button id="btn-orange" class="color-btn btn-color-orange" title="Orange Preset"></button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- QUESTION 2 – STOPWATCH                                   -->
+    <!-- ======================================================== -->
+    <section class="section-container" id="stopwatch-section">
+      <h2>Question 2 – Stopwatch</h2>
+
+      <div class="stopwatch-wrapper">
+
+        <div class="stopwatch-display-box">
+          <span id="stopwatch-display">0</span>
+          <span class="stopwatch-unit">seconds</span>
+        </div>
+
+        <div class="stopwatch-controls">
+          <button id="btn-start" class="btn btn-start">Start</button>
+          <button id="btn-stop" class="btn btn-stop">Stop</button>
+          <button id="btn-reset" class="btn btn-reset">Reset</button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ======================================================== -->
+    <!-- QUESTION 3 – TO-DO LIST                                  -->
+    <!-- ======================================================== -->
+    <section class="section-container" id="todo-section">
+      <h2>Question 3 – To-Do List</h2>
+
+      <div class="todo-wrapper">
+        
+        <div class="todo-input-bar">
+          <input type="text" id="todo-input" placeholder="Enter task here..." autocomplete="off">
+          <button id="btn-add-task" class="btn btn-add">Add Task</button>
+        </div>
+
+        <ul id="todo-list" class="todo-list">
+
+        </ul>
+
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

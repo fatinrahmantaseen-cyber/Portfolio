@@ -1,0 +1,86 @@
+============================================================
+           AI USAGE DECLARATION
+============================================================
+
+Name: Fatin Rahman Taseen
+Student ID: 22299002
+Assignment: 01
+Date: 02/11/26
+
+------------------------------------------------------------
+1. AI TOOLS USED (check all that apply)
+------------------------------------------------------------
+[ ] None
+[✔ ] ChatGPT
+[ ] GitHub Copilot
+[ ] Google Gemini
+[ ] Claude
+[ ] Cursor
+[ ] Other: ________________
+
+------------------------------------------------------------
+2. PURPOSE OF AI USE (check all that apply)
+------------------------------------------------------------
+[✔] Learning/understanding concepts
+[✔] Debugging my code 
+[ ] Generating code snippets
+[✔] Writing text content
+[✔] Design/styling ideas
+[✔] Image generation
+[ ] Other: ________________
+
+------------------------------------------------------------
+3. DESCRIPTION OF AI USE
+------------------------------------------------------------
+Briefly describe what you used AI for and how:
+I used AI only for guidance, ideas and step-by-step instructions to understand how to structure and improve the stylr. I took help when there is any error also took help to build the stopwatch with 3 second gap. Also to make the box with color and condition. Also took help to construct the part of question 3 and make code simple and error free. 
+
+
+
+
+
+------------------------------------------------------------
+4. AI-ASSISTED SECTIONS
+------------------------------------------------------------
+List specific files/sections where AI helped significantly:
+
+File: script.js   Section: Stopwatch time interval management
+File: style.css  Section: To-Do List localStorage
+File: script.js  Section: Random Fortune Generator
+
+------------------------------------------------------------
+5. DECLARATION
+------------------------------------------------------------
+I declare that:
+- This disclosure is complete and accurate
+- I understand all code in my submission
+- I can explain and modify my work if asked
+- I take full responsibility for my submission
+
+------------------------------------------------------------
+6. Prompts
+------------------------------------------------------------
+1. Understand the project
+2. What are the steps
+3. How to make the fortune genarator
+4. How to make box  and also how to give the coditions and apply on it
+5. How to make the gap in the stop watch and how I can impliment the 3 buttons
+6. How can I make the stopwatch automatically stop when it reaches 30 seconds
+7. How can I use localStorage in JavaScript to save To-Do List tasks
+8. How can I add a checkbox to mark a task as completed
+9. Help me add a Delete button beside each task so users can remove individual tasks.
+10. How can I make keep this in one webpage
+11. Tell me how to fix the error
+12. Check whether my implementation follows all the assignment requirements 
+13. Tell me the command to push it in git
+14. How to find the hosted url
+ 
+
+
+Signature: TASEEN
+Date: 02/11/26
+
+============================================================
+Save as: docs/AI_Declaration.txt
+============================================================
+

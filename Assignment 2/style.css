@@ -1,0 +1,335 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f1f5f9;
+  color: #1e293b;
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+.page-header {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  text-align: center;
+  padding: 12px 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.page-header h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.main-container {
+  max-width: 1050px;
+  width: 94%;
+  margin: 16px auto 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.section-container {
+  background-color: #ffffff;
+  padding: 18px 24px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.section-container h2 {
+  font-size: 1.15rem;
+  color: #0f172a;
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.btn {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s ease, opacity 0.15s ease;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+/* ========================================================
+   QUESTION 1 – FORTUNE GENERATOR STYLES
+   Matches the expected output screenshot in the assignment
+   ======================================================== */
+
+.fortune-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 8px auto;
+  max-width: 760px;
+}
+
+#fortune-box {
+  flex: 1;
+  min-height: 76px;
+  background-color: #fff275; 
+  border: 3px solid #2e7d32; 
+  border-radius: 4px;
+  padding: 14px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.25s ease;
+}
+
+
+#fortune-text {
+  color: #d32f2f; 
+  font-size: 18px;
+  font-family: Georgia, serif;
+  font-weight: 500;
+  line-height: 1.4;
+  transition: color 0.25s ease, font-size 0.25s ease;
+}
+
+
+.fortune-buttons-panel {
+  display: grid;
+  grid-template-columns: repeat(2, 32px);
+  grid-template-rows: repeat(2, 32px);
+  gap: 6px;
+  background-color: #e2e8f0; 
+  border: 1px solid #cbd5e1; 
+  padding: 6px;
+  border-radius: 4px;
+}
+
+
+.color-btn {
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}
+
+.color-btn:hover {
+  opacity: 0.85;
+}
+
+
+.btn-color-green {
+  background-color: #4caf50; 
+}
+
+.btn-color-yellow {
+  background-color: #ffeb3b; 
+}
+
+.btn-color-blue {
+  background-color: #2196f3; 
+}
+
+.btn-color-orange {
+  background-color: #ff9800; 
+}
+
+/* ========================================================
+   QUESTION 2 – STOPWATCH STYLES
+   ======================================================== */
+.stopwatch-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 4px 0;
+}
+
+/* Display Box */
+.stopwatch-display-box {
+  background-color: #f8fafc;
+  border: 2px solid #cbd5e1;
+  border-radius: 6px;
+  padding: 10px 42px;
+  text-align: center;
+  min-width: 180px;
+}
+
+#stopwatch-display {
+  font-size: 2.7rem;
+  font-weight: 700;
+  color: #1e3a8a;
+  line-height: 1;
+}
+
+.stopwatch-unit {
+  font-size: 0.8rem;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: block;
+  margin-top: 4px;
+}
+
+/* Controls */
+.stopwatch-controls {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-start {
+  background-color: #16a34a;
+  color: #ffffff;
+  min-width: 85px;
+}
+
+.btn-start:hover {
+  background-color: #15803d;
+}
+
+.btn-stop {
+  background-color: #dc2626;
+  color: #ffffff;
+  min-width: 85px;
+}
+
+.btn-stop:hover {
+  background-color: #b91c1c;
+}
+
+.btn-reset {
+  background-color: #475569;
+  color: #ffffff;
+  min-width: 85px;
+}
+
+.btn-reset:hover {
+  background-color: #334155;
+}
+
+/* ========================================================
+   QUESTION 3 – TO-DO LIST STYLES
+   ======================================================== */
+.todo-wrapper {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.todo-input-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+#todo-input {
+  flex: 1;
+  padding: 9px 14px;
+  border: 2px solid #cbd5e1;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  outline: none;
+  font-family: inherit;
+}
+
+#todo-input:focus {
+  border-color: #1e3a8a;
+}
+
+.btn-add {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  white-space: nowrap;
+  padding: 9px 20px;
+}
+
+.btn-add:hover {
+  background-color: #1e40af;
+}
+
+.todo-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  background-color: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  padding: 8px 14px;
+}
+
+.todo-checkbox {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: #1e3a8a;
+}
+
+.todo-text {
+  flex: 1;
+  margin: 0 14px;
+  font-size: 1rem;
+  color: #1e293b;
+  word-break: break-word;
+}
+
+.todo-item.completed .todo-text {
+  text-decoration: line-through;
+  color: #94a3af;
+}
+
+.btn-delete {
+  background-color: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fca5a5;
+  border-radius: 4px;
+  padding: 5px 12px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-delete:hover {
+  background-color: #dc2626;
+  color: #ffffff;
+}
+
+.empty-todo-msg {
+  text-align: center;
+  color: #94a3af;
+  font-style: italic;
+  padding: 10px 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .fortune-wrapper {
+    flex-direction: column;
+  }
+
+  .todo-input-bar {
+    flex-direction: column;
+  }
+}
+
