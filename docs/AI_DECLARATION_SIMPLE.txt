@@ -56,6 +56,26 @@ I declare that:
 - I can explain and modify my work if asked
 - I take full responsibility for my submission
 
+------------------------------------------------------------
+6. Prompts
+------------------------------------------------------------
+1. Understand the project
+2. What are the steps
+3. Review the code code
+4. How to improve homepage
+5. How to add dark/light mode
+6. How i can add profile picture 
+7. How to fix navigation and links
+8. How I can another image through imagebb
+9. How to improve contact form
+10. How to  add animations
+11. Test website
+12. Fix the errors
+13. Check GitHub repository
+14. Configure GitHub Pages
+15. How to update live website
+
+
 Signature: TASEEN
 Date: 26/10/26
 
